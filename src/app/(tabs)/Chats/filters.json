@@ -1,0 +1,6 @@
+[
+  { "title": "All", "icon": "MessageSquareText" },
+  { "title": "Unread", "icon": "MessageSquareDot" },
+  { "title": "Direct", "icon": "UserRound" },
+  { "title": "Group", "icon": "UserRoundGroup" }
+]
