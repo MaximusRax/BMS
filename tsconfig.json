@@ -8,7 +8,10 @@
       ],
       "@/assets/*": [
         "./assets/*"
-      ]
+      ],
+      "@Component/*": [
+        "./src/components/*"
+      ],
     }
   },
   "include": [
@@ -16,6 +19,14 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    ".expo",
+    "dist",
+    "web-build",
+    "babel.config.js",
+    "metro.config.js"
   ]
 }

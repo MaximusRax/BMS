@@ -1,6 +1,6 @@
 [
-  { "title": "All", "icon": "" },
-  { "title": "Unread", "icon": "" },
-  { "title": "Direct", "icon": "" },
-  { "title": "Group", "icon": "" }
+  { "title": "All", "icon": "MessageSquareText" },
+  { "title": "Unread", "icon": "MessageSquareDot" },
+  { "title": "Direct", "icon": "UserRound" },
+  { "title": "Group", "icon": "UserRoundGroup" }
 ]

@@ -3,3 +3,10 @@
 @import "tailwindcss/utilities.css";
 
 @import "nativewind/theme";
+
+@theme {
+  --color-primary: "#10b981";
+  --color-secondary: "#065f46";
+  --color-tertiary: "#f59e0b";
+  --color-neutral: "#0f172a"
+}

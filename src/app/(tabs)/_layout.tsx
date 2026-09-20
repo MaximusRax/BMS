@@ -1,9 +1,22 @@
 import { Tabs } from "expo-router";
 import { CircleUser, MessageSquareText, Phone } from "lucide-react-native";
+import { useRef } from "react";
+import { SearchBar } from "react-native-screens";
 
 export default function TabLayout() {
+  const searchText = useRef(null);
   return (
-    <Tabs initialRouteName="Chats/index" screenOptions={{ headerTitle: "BNS" }}>
+    <Tabs
+      initialRouteName="Chats/index"
+      screenOptions={{
+        headerTitle: "BNS",
+        headerSearchBarOptions: {
+          // autoFocus: true,
+          ref: searchText,
+          placeholder: "Search...",
+        },
+      }}
+    >
       <Tabs.Screen
         name="Chats"
         options={{
