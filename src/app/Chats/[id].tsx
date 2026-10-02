@@ -1,9 +1,7 @@
 import {
   View,
-  Text,
   StatusBar,
   useColorScheme,
-  ScrollView,
   KeyboardAvoidingView,
   Platform,
   FlatList,
